@@ -1,0 +1,48 @@
+.backdrop_img{
+    height: 350px;
+    width: auto;
+    border: 2px solid teal;
+    border-radius: 4px;
+}
+
+.pelicula_card_overview{
+    height: 150px;
+    overflow: hidden;
+}
+.card img{
+    height: 400px;
+    background-size: cover;
+}
+
+.card-body{
+	margin-top:0px;
+	transition:.3s;
+	-webkit-transition:.3s;
+}
+
+.card-deck{
+	margin-bottom:3.2rem;
+  	flex-wrap: nowrap;
+  	-webkit-overflow-scrolling: touch;
+}
+
+.front-deck{
+	padding-top:12rem;
+}
+
+.card{
+	margin-right:16px;
+	border:none;
+}
+
+.card .card-body:first-of-type{
+	border:2px solid teal;
+}
+body{
+    background-color: #8ebabb;
+}
+.boton_atras{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+h1 {text-align: center}
